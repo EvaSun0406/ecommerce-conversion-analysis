@@ -115,12 +115,12 @@ Top behavioural differences between converted vs non-converted High Intent users
 ecommerce-conversion-analysis/
 │
 ├── notebooks/
-│   ├── 1_cleaning_EDA.ipynb                # Data cleaning & exploratory analysis
-│   ├── 2_funnel_feature_engineering.ipynb   # Funnel analysis & feature engineering
-│   ├── 3_modelling_segmentation.ipynb       # LightGBM modelling & segmentation
-│   ├── 4_diagnosis.ipynb                    # High Intent session diagnosis
-│   ├── 5_recommendation.ipynb               # Recommendation system
-│   └── 6_visualisation.ipynb               # Python charts
+│   ├── 1 cleaning & EDA.ipynb                # Data cleaning & exploratory analysis
+│   ├── 2 funnel analysis& feature enginerring.ipynb   # Funnel analysis & feature engineering
+│   ├── 3 modelling&segmentation.ipynb       # LightGBM modelling & segmentation
+│   ├── 4 diagnosis.ipynb                    # High Intent session diagnosis
+│   ├── 5 recommendation.ipynb               # Recommendation system
+│   └── 6 visualisation.ipynb               # Python charts
 │
 ├── data/
 │   ├── sessions_featured.csv               # Session-level features
@@ -130,7 +130,7 @@ ecommerce-conversion-analysis/
 │   └── tableau/                            # Tableau-ready summary CSVs
 │
 ├── reports/
-│   └── Technical_Report_v2.docx           # Full technical report
+│   └── Technical_Report.docx           # Full technical report
 │
 ├── visualisations/
 │   ├── rec_chart1_target_sessions.png
@@ -150,12 +150,12 @@ pip install pandas numpy scikit-learn lightgbm matplotlib seaborn
 
 ### Run Order
 ```
-1_cleaning_EDA.ipynb
-2_funnel_feature_engineering.ipynb
-3_modelling_segmentation.ipynb
-4_diagnosis.ipynb
-5_recommendation.ipynb
-6_visualisation.ipynb
+1 cleaning & EDA.ipynb                
+2 funnel analysis& feature enginerring.ipynb   
+3 modelling&segmentation.ipynb       
+4 diagnosis.ipynb                   
+5 recommendation.ipynb               
+6 visualisation.ipynb  
 ```
 
 > Download the raw dataset from Kaggle and place it in a `data/raw/` folder before running notebook 1.
