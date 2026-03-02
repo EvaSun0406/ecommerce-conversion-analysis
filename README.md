@@ -33,7 +33,8 @@ This project analyses **4.5 million e-commerce sessions** from a professional co
 - **Period:** October 2019 – February 2020
 - **Fields:** event_time, event_type, product_id, category_id, category_code, brand, price, user_id, user_session
 
-> ⚠️ Raw data files are not included in this repository due to size. Please download directly from Kaggle using the link above.
+> ⚠️ All data files are not included in this repository due to file size limits.
+> Download raw data from Kaggle using the link above and run notebooks in order to reproduce all processed files.
 
 ---
 
@@ -123,6 +124,7 @@ ecommerce-conversion-analysis/
 │   └── 6 visualisation.ipynb               # Python charts
 │
 ├── data/
+│   └── (not included - see Dataset section above)
 │   ├── sessions_featured.csv               # Session-level features
 │   ├── sessions_modeled_lgb.csv            # Sessions with LightGBM probabilities
 │   ├── recommendations_sample.csv          # Sample recommendations (1,000 sessions)
