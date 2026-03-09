@@ -10,7 +10,7 @@
 
 ## Project Overview
 
-This project analyses **4.5 million e-commerce sessions** from a professional cosmetics supply platform serving the Russian market (Oct 2019 – Feb 2020). The goal is to identify where purchase decisions break down, predict purchase intent before a session ends, and propose a targeted recommendation system to improve conversion.
+This project analyses **19.6 million e-commerce sessions** from a professional cosmetics supply platform serving the Russian market (Oct 2019 – Feb 2020). The goal is to identify where purchase decisions break down, predict purchase intent before a session ends, and propose a targeted recommendation system to improve conversion.
 
 **Overall conversion rate: 3.43%** — with 86.49% of cart sessions failing to convert to purchase.
 
