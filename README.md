@@ -182,13 +182,13 @@ pip install pandas numpy scikit-learn lightgbm matplotlib seaborn
 ## Dashboard Preview
 
 ### Page 1 — Data Overview
-![Page 1](visualisations/dashboard_page1.png)
+![Page 1](dashboard_page1.png)
 
 ### Page 2 — Conversion Problem
-![Page 2](visualisations/dashboard_page2.png)
+![Page 2](dashboard_page2.png)
 
 ### Page 3 — Behavioural Diagnosis
-![Page 3](visualisations/dashboard_page3.png)
+![Page 3](dashboard_page3.png)
 
 ---
 
